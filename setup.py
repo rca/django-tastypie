@@ -8,13 +8,13 @@ except ImportError:
     from setuptools import setup
 
 setup(
-    name='django-tastypie',
-    version='0.9.11',
-    description='A flexible & capable API layer for Django.',
+    name='django-tastypie-with-uploads-dummycache-error500',
+    version='1.0.0-beta-red2',
+    description='Patched version of Django Tastypie -- check README.rst.',
     author='Daniel Lindsley',
     author_email='daniel@toastdriven.com',
     url='http://github.com/toastdriven/django-tastypie/',
-    long_description=open('README.rst', 'r').read(),
+    long_description=open('README', 'r').read(),
     packages=[
         'tastypie',
         'tastypie.utils',
